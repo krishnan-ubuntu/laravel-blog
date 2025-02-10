@@ -1,0 +1,23 @@
+AGPL-3.0 License with Non-Commercial Clause
+
+Copyright (c) 2025 Krishnan
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+## Additional Terms:
+In addition to the terms of the AGPL-3.0 license, the following restrictions apply:
+
+1. **Non-Commercial Use Only**: This software may not be used for commercial purposes. Commercial use includes, but is not limited to:
+   - Selling or distributing the software for financial gain.
+   - Offering the software as a hosted service (SaaS).
+   - Using the software as part of a paid or monetized product.
+
+2. **Attribution**: Any public use of this software must include a visible attribution to the original author and provide a link to the original repository.
+
+3. **License Enforcement**: Any attempt to remove or circumvent these additional terms will result in immediate revocation of the license.
+
+For inquiries about commercial licensing, contact Krishnan - krishnan.ubuntu@gmail.com.
