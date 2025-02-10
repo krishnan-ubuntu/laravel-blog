@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2in"
+   height="3in"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   version="1.0"
+   sodipodi:docbase="/home/nixternal/Ubuntu/Marketing/stickers"
+   sodipodi:docname="poweredbyubuntu.svg">
+  <defs
+     id="defs4">
+    <foreignObject
+       requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="foreignObject8228">
+      <i:pgfRef
+         xlink:href="#adobe_illustrator_pgf" />
+    </foreignObject>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="165.34115"
+     inkscape:cy="131.42857"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="749"
+     inkscape:window-height="540"
+     inkscape:window-x="419"
+     inkscape:window-y="252" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5793">
+      <g
+         id="g8350"
+         transform="matrix(1.592378,0,0,1.592378,-20.85653,17.14182)">
+        <circle
+           style="fill:#ff6309"
+           sodipodi:ry="9.1680002"
+           sodipodi:rx="9.1680002"
+           sodipodi:cy="47.130001"
+           sodipodi:cx="33.206001"
+           id="circle8235"
+           r="9.1680002"
+           cy="47.130001"
+           cx="33.206001"
+           i:knockout="Off" />
+        <circle
+           style="fill:#ffb515"
+           sodipodi:ry="9.1689997"
+           sodipodi:rx="9.1689997"
+           sodipodi:cy="85.073997"
+           sodipodi:cx="98.945"
+           id="circle8237"
+           r="9.1689997"
+           cy="85.073997"
+           cx="98.945"
+           i:knockout="Off" />
+        <path
+           style="fill:#ff6309"
+           id="path8239"
+           d="M 77.031,24.444 C 88.448,24.444 97.918,32.921 99.486,43.91 L 115.194,43.91 C 114.48,35.275 110.9,27.227 104.915,20.878 C 101.081,22.832 96.367,22.869 92.363,20.557 C 88.356,18.244 86.031,14.14 85.808,9.839 C 82.963,9.176 80.024,8.831 77.031,8.831 C 71.3,8.831 65.761,10.082 60.725,12.455 L 68.588,26.076 C 71.199,25.024 74.049,24.444 77.031,24.444 z "
+           i:knockout="Off" />
+        <path
+           style="fill:#c90016"
+           id="path8241"
+           d="M 99.488,50.339 C 97.923,61.333 88.45,69.815 77.031,69.815 C 74.046,69.815 71.197,69.234 68.584,68.182 L 60.721,81.803 C 65.758,84.178 71.298,85.429 77.031,85.429 C 80.027,85.429 82.969,85.085 85.816,84.42 C 86.036,80.115 88.36,76.005 92.372,73.689 C 96.376,71.376 101.092,71.414 104.927,73.369 C 110.908,67.02 114.484,58.973 115.196,50.34 L 99.488,50.34 L 99.488,50.339 z "
+           i:knockout="Off" />
+        <path
+           style="fill:#ffb515"
+           id="path8243"
+           d="M 54.346,47.13 C 54.346,39.902 57.743,33.454 63.024,29.297 L 55.162,15.679 C 53.318,16.967 51.573,18.426 49.95,20.049 C 45.4,24.6 42.136,30.094 40.341,36.089 C 43.959,38.432 46.355,42.5 46.355,47.131 C 46.355,51.762 43.959,55.83 40.341,58.172 C 42.136,64.169 45.4,69.662 49.95,74.211 C 51.572,75.835 53.316,77.292 55.158,78.58 L 63.022,64.96 C 57.741,60.802 54.346,54.355 54.346,47.13 z "
+           i:knockout="Off" />
+        <circle
+           style="fill:#c90016"
+           sodipodi:ry="9.1680002"
+           sodipodi:rx="9.1680002"
+           sodipodi:cy="9.1700001"
+           sodipodi:cx="98.936996"
+           id="circle8245"
+           r="9.1680002"
+           cy="9.1700001"
+           cx="98.936996"
+           i:knockout="Off" />
+      </g>
+      <rect
+         ry="12.435497"
+         rx="12.592503"
+         y="8.0361481"
+         x="7.0499787"
+         height="254.9277"
+         width="167.90004"
+         id="rect4901"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.08562589;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path4906"
+         d="M 8,194 C 174,194 174,194 174,194 L 174,195"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5781"
+         y="190"
+         x="11"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         xml:space="preserve"><tspan
+           y="190"
+           x="11"
+           id="tspan5783"
+           sodipodi:role="line">powered by:</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5785"
+         y="241"
+         x="14"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Ubuntu-Title"
+         xml:space="preserve"><tspan
+           y="241"
+           x="14"
+           id="tspan5787"
+           sodipodi:role="line">ubuntu</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5789"
+         y="256"
+         x="126"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         xml:space="preserve"><tspan
+           y="256"
+           x="126"
+           id="tspan5791"
+           sodipodi:role="line">linux</tspan></text>
+    </g>
+  </g>
+</svg>
