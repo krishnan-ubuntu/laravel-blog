@@ -5,7 +5,7 @@
     <div class="row">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
           </ol>
         </nav>
         <div class="col-md-8">

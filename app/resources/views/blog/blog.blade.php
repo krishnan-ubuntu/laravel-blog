@@ -7,11 +7,11 @@
         <div class="col-md-8">
             <?php if (!empty($posts)) { ?>
                     <?php foreach ($posts as $value) { ?>
-                        <h5><a href="/post/<?php echo $value->slug; ?>"><?php echo $value->title; ?></a></h5>
+                        <h5><a href="<?php echo $value->slug; ?>"><?php echo $value->title; ?></a></h5>
                         <p><small><?php echo Date('M d Y', strtotime($value->created)); ?></small></p>
                         <p></p>
                         <p><?php echo $value->snipet; ?></p>
-                        <p align="right"><a href="/post/<?php echo $value->slug; ?>">Read more</a></p>
+                        <p align="right"><a href="<?php echo $value->slug; ?>">Read more</a></p>
                         <br><br>
                     <?php } ?>
                 <?php } ?>

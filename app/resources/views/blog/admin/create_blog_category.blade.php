@@ -1,5 +1,7 @@
-	<p align="right"><a href="/dashboard">Dashboard</a> | 
-		<a href="/categories">Blog Categories</a> | <a href="/logout">Logout</a></p>
+	<p align="right">
+			<a href="{{ url('dashboard') }}">Dashboard</a> | 
+		<a href="{{ url('categories') }}">Categories</a> | <a href="{{ url('/') }}">View Blog</a> | 
+		<a href="{{ url('logout') }}">Logout</a>
 <h1 align="center">Create Category</h1>
 <hr>
 <div id="create-post">
@@ -15,7 +17,7 @@
 	            {{session('error')}}
 	        </div>
 			@endif
-			<form action="/categories/save" method="post">
+			<form class="form-control" method="post" action="{{ url('categories/save') }}">
 				@csrf
 				<b>Name: </b><br>
 				<input class="form-control" type="text" name="catName" placeholder="Category Name" v-model="blogTitle" @change="updateBlogSlug">

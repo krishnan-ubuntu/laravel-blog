@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', 'App\Http\Controllers\BlogController@index');
-Route::get('/post/{postSlug}', 'App\Http\Controllers\BlogController@blog_posts');
 Route::get('/category/posts/{catSlug}', 'App\Http\Controllers\BlogController@category_blog_posts');
 Route::get('/error', 'App\Http\Controllers\BlogController@blog_error');
 
@@ -33,3 +33,5 @@ Route::get('/logout', 'App\Http\Controllers\BlogAuthController@logout');
 Route::get('/visitor/login', 'App\Http\Controllers\BlogVisitorAuthController@login');
 Route::post('/visitor/auth', 'App\Http\Controllers\BlogVisitorAuthController@login');
 
+//This has to remain at the last
+Route::get('{postSlug}', 'App\Http\Controllers\BlogController@blog_posts');

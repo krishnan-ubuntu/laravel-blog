@@ -1,8 +1,8 @@
 
 	<p align="right">
-		<a href="/dashboard">Dashboard</a> | 
-		<a href="/categories/create">Create Category</a> | 
-		<a href="/logout">Logout</a></p>
+		<a href="{{ url('dashboard') }}">Dashboard</a> | 
+		<a href="{{ url('categories/create') }}">Create Category</a> | <a href="{{ url('/') }}">View Blog</a> | 
+		<a href="{{ url('logout') }}">Logout</a>
 <h1 align="center">Blog Categories</h1>
 <hr>
 <table class="table">
