@@ -3,7 +3,7 @@
     	resize: none;
 	}
 </style>
-<script src="/static/js/lib/tinymce/tinymce.min.js"></script>
+<script src="{{ asset('static/js/lib/tinymce/tinymce.min.js') }}"></script>
 <script>
 	tinymce.init({
 	    selector: 'textarea#blogContent',
@@ -63,8 +63,8 @@
 	    contextmenu: "link image imagetools table",
 	});
 </script>
-	<p align="right"><a href="/dashboard">Dashboard</a> | 
-		<a href="/posts">Blog Posts</a> | <a href="/logout">Logout</a></p>
+	<p align="right"><a href="{{ url('dashboard') }}">Dashboard</a> | 
+	<a href="{{ url('posts') }}">Blog Posts</a> | <a href="{{ url('/') }}">View Blog</a> | <a href="{{ url('logout') }}">Logout</a></p>
 <h1 align="center">Create Blog Posts</h1>
 <hr>
 <div id="create-post">
@@ -80,7 +80,7 @@
 	            {{session('error')}}
 	        </div>
 			@endif
-			<form action="/posts/save" method="post">
+			<form class="form-control" method="post" action="{{ url('posts/save') }}">
 				@csrf
 				<b>Title: </b><br>
 				<input class="form-control" type="text" name="blogTitle" placeholder="Blog title" v-model="blogTitle" @change="updateBlogSlug">
@@ -106,4 +106,4 @@
 		<div class="col-md-2"></div>
 	</div>
 </div>
-<script src="/static/js/app/create_post.js"></script>
+<script src="{{ asset('static/js/app/create_post.js') }}"></script>

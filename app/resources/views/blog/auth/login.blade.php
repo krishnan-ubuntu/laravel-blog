@@ -5,7 +5,7 @@
     <br>
     <div class="row">
         <div class="col-md-4">
-            <form class="form-control" method="post" action="/auth">
+            <form class="form-control" method="post" action="{{ url('auth') }}">
                 @csrf
                 <input class="form-control" type="text" name="username" placeholder="Username"><br>
                 <input class="form-control" type="password" name="password" placeholder="Password"><br>

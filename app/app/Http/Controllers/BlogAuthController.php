@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
-// use Auth;
-// use Redirect;
+use Auth;
+use Redirect;
 use Session;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\LoginPostRequest;
@@ -18,7 +18,7 @@ class BlogAuthController extends Controller
     public function login()
     {
     	if (Session::get('loginValidated') === 'yes') {
-    		return redirect('/dashboard');
+    		return redirect(url('dashboard'));
     	}
     	else {
     		$title = 'Blog login';
@@ -32,7 +32,7 @@ class BlogAuthController extends Controller
     public function logout()
     {
     	Session::flush();
-    	return redirect('/login');
+    	return redirect(url('login'));
     }
 
 

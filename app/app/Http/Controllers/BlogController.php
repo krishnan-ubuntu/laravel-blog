@@ -28,9 +28,9 @@ class BlogController extends Controller
     {
         $logged_in = $request->session()->get('loginValidated');
 
-        if (Posts::where('slug', '=', $postSlug)->count() === 0) {
-            return redirect('/error');
-        }
+        // if (Posts::where('slug', '=', $postSlug)->count() === 0) {
+               //return redirect(url('error'));
+        // }
 
         $post = Posts::whereSlug($postSlug)->with(['users','categories'])->first();
         $title = $post->title;
@@ -42,7 +42,7 @@ class BlogController extends Controller
     public function dashboard(Request $request)
     {
         if (Session::get('loginValidated') !== 'yes') {
-            return redirect('/');
+            return redirect(url('/'));
         }
         $user_fname = $request->session()->get('userFname');
         $user_lname = $request->session()->get('userLname');
@@ -58,7 +58,7 @@ class BlogController extends Controller
     {
 
         if (Categories::where('slug', '=', $category_slug)->count() === 0) {
-            return redirect('/error');
+            return redirect(url('error'));
         }
 
         $logged_in = $request->session()->get('loginValidated');
